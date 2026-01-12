@@ -1,0 +1,131 @@
+@charset "UTF-8";
+.total_body {
+    background-color: rgba(32,3,55,0.87);
+}
+.button_form {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: none;
+    width: 140px;
+    text-align: center;
+}
+.button_form:hover {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.green_button {
+    background-color: #54C0B5;
+}
+.green_button:hover {
+    background-color: #286D66;
+}
+.red_button {
+    background-color: #E80851;
+}
+.red_button:hover {
+    background-color: #9C0536;
+}
+.purple_button {
+    background-color: #A248E8;
+}
+.purple_button:hover {
+    background-color: #861BD9;
+}
+
+.total_box {
+    text-align: center;
+}
+.tittle_box {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.tittle_box_show {
+    color: #54C0B5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+.value_box {
+    color: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.delete_box {
+    padding-top: 35px;
+}
+
+.first {
+    width: 177px;
+    display: inline-block;
+    float: none;
+}
+.white_text {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.red_text {
+	color: #D3394C;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 10px;
+}
+.box_form {
+    padding-top: 15px;
+}
+.multiple_option {
+    width: 200px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+.exchange_option {
+    width: 115px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3C2250;
+}
+.field_box {
+    padding-top: 15px;
+}
+.field_box_exchange {
+    padding-top: 15px;
+    padding-left: 17px;
+    padding-bottom: 0px;
+}
+.simple_form_box {
+    padding-bottom: 17px;
+}
+.images_box {
+    padding-top: 15px;
+}
+.form_total_box {
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+.tittle_form {
+    padding-top: 20px;
+}
+.exchange_buttons {
+    padding-top: 15px;
+}
+.type_field {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+	color: inherit;
+	width: 100%;
+}
