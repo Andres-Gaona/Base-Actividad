@@ -1,0 +1,580 @@
+@charset "UTF-8";
+
+/* Sección para todo el contenido */
+.total_content {
+    width: 1920px;
+    height: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/* === SHADOW TOP DE LA BARRA INFORMATIVA === */
+.header::after {
+    content: "";
+    position: absolute;          
+    top: 100%;                   
+    left: 0;
+    width: 100%;
+    height: 30px;                /* Altura de la sombra */
+    pointer-events: none;        /* Sin interraciones */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0));
+    z-index: 5;                  
+}
+
+.header {
+    position: relative;
+}
+
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Barra superior */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    flex-wrap: wrap;
+    padding: 0 20px; 
+}
+
+/* Espacio para el logo */
+.logo img {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+}
+
+/* Información de hora local y fecha */
+.time-info {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Sección de hora local */
+.time-local {
+    text-align: center;
+    flex: 1;
+}
+
+/* Hora Local: Aumentar el tamaño de la hora */
+#local-time {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Leyenda de Hora Local */
+.time-local p {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+/* Sección del bloque central con fecha y temperatura */
+.block-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 3;
+    background-color: #444;
+    height: auto;
+    margin: 0;
+}
+
+.block-middle .segment {
+    text-align: center;
+    margin: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.segment p {
+    font-weight: bold;
+    margin: 0;
+}
+
+.segment img {
+    width: 100%;
+    max-width: 15px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Estilos para la temperatura y el icono de nube */
+.temperature-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 5px;
+}
+
+.temperature-container .cloud-icon {
+    width: 15px;
+    height: auto;
+}
+
+/* Sección de las otras zonas horarias */
+.other-timezones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 2;
+    margin: 0;
+}
+
+.timezone {
+    text-align: center;
+    flex: 1;
+}
+
+.timezone p {
+    font-weight: bold;
+    margin: 0;
+}
+
+.timezone-icon {
+    text-align: center;
+    flex: 0.5;
+}
+
+.timezone-icon img {
+    max-width: 50px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* === PRIMERA BARRA INTERMEDIA (CARRUSELES + TABLA) === */
+.middle-panel {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 0;              /* eliminar espacios entre elementos */
+    padding: 0;          /* quitar padding interno */
+    margin: 0;           /* quitar margin externo */
+    background-color: #f8f8f8;
+    height: 540px;
+    box-sizing: border-box;
+}
+
+.carousel-container {
+    grid-column: span 4;
+    background-color: #ffffff;
+    border-radius: 0;    /* quitar bordes redondeados si se quiere que esté pegado */
+    box-shadow: none;    /* quitar sombra para que no se perciba separación */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-container .owl-carousel {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-container .owl-carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.table-container {
+    grid-column: span 4;
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tabla de restaurantes */
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+
+.table-container th,
+.table-container td {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 4px; /* padding mínimo para legibilidad */
+    margin: 0;
+}
+
+.table-container th {
+    background-color: #ff0c0c;
+    color: white;
+    font-weight: bold;
+}
+
+/* === SEGUNDA BARRA INFERIOR (CARRUSELES + VIDEO) === */
+.bottom-panel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;               /* quitar espacio entre bloques */
+    padding: 0;           /* quitar padding interno */
+    margin: 0;            /* quitar margen externo */
+    background-color: #000000;
+    height: 250px;
+    box-sizing: border-box;
+}
+
+.bottom-block {
+    background-color: #ffffff;
+    border-radius: 0;     /* quitar bordes redondeados */
+    box-shadow: none;     /* quitar sombra */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Carruseles inferiores */
+.bottom-block .owl-carousel {
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-block .owl-carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Reproductor de video */
+.video-player-container {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.video-player-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* === TICKER BARRA INFERIOR === */
+.ticker-container {
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    overflow: hidden;
+    display: block;          /* 👈 Cambiamos de flex a block */
+    height: 45px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;              /* 👈 Sin padding */
+    position: relative;
+}
+
+/* Contenedor general (ícono + texto) */
+.ticker-content {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+/* Bloque de color detrás del ícono */
+.ticker-icon-block {
+    position: absolute;
+    left: 0;   /* 👈 Pegado al borde izquierdo */
+    top: 0;
+    width: 80px;
+    height: 100%;
+    background-color: #201f1f;
+    z-index: 1;
+}
+
+/* Ícono del ticker */
+.ticker-icon {
+    position: relative;
+    z-index: 2;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 45px;
+    margin: 0;               /* 👈 Cero margen */
+    padding: 0;              /* 👈 Cero padding */
+}
+
+.ticker-icon img {
+    height: 25px;
+    width: auto;
+    display: block;          /* 👈 Evita espacio fantasma de imágenes inline */
+}
+
+/* Texto desplazable */
+.ticker-text {
+    white-space: nowrap;
+    display: inline-block;
+    animation: ticker-scroll 37s linear infinite;
+    padding-left: 20px;      /* Espacio entre el ícono y el texto */
+    z-index: 0;
+    position: relative;
+    margin: 0;
+}
+
+@keyframes ticker-scroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+
+
+/* === RESPONSIVIDAD === */
+@media (max-width: 1024px) {
+    .middle-panel, .bottom-panel {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .bottom-block {
+        height: 250px;
+    }
+
+    .ticker-container {
+        font-size: 1rem;
+    }
+}
+
+
+/*-------------LOGIN.CSS-------------------*/
+/*-------------LOGIN.CSS-------------------*/
+/*-------------LOGIN.CSS-------------------*/
+/*-------------LOGIN.CSS-------------------*/
+/*-------------LOGIN.CSS-------------------*/
+
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'GillSansMTPro-Book', sans-serif;
+}
+
+/* Fondo de la página con un contenedor flexible */
+#total_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 1s ease-in-out;
+}
+
+/* Estilo del formulario de login */
+#login_form {
+    background-color: rgba(0, 0, 0, 0.66);
+    border-radius: 20px;
+    padding: 30px;
+    width: 376px;
+    max-width: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#logo_box {
+    margin-bottom: 30px;
+}
+
+#logo_box img {
+    width: 154px;
+    height: 172px;
+}
+
+.input-control {
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    text-align: center;
+    border-radius: 50px;
+    padding: 1em 2em;
+    margin-bottom: 15px;
+    width: 80%;
+    color: #FFFFFF;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.button--wayra {
+    width: 80%;
+    background-color: #3f51b5;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 25px;
+    transition: all 0.3s;
+}
+
+.button--wayra:hover {
+    background-color: #5c6bc0;
+    cursor: pointer;
+}
+
+/* Estilo del logo secundario */
+#sunbox_logo {
+    margin-top: 20px;
+}
+
+#sunbox_logo img {
+    width: 160px;
+    height: 78px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    #login_form {
+        width: 90%;
+    }
+
+    #logo_box img {
+        width: 120px;
+        height: 130px;
+    }
+}
+
+/*--------STYLE.CSS FOR SECCIONES---------------*/ 
+/*--------STYLE.CSS FOR SECCIONES---------------*/ 
+/*--------STYLE.CSS FOR SECCIONES---------------*/ 
+/*--------STYLE.CSS FOR SECCIONES---------------*/ 
+/*--------STYLE.CSS FOR SECCIONES---------------*/ 
+/*--------STYLE.CSS FOR SECCIONES---------------*/ 
+/*--------STYLE.CSS FOR SECCIONES---------------*/ 
+
+
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos básicos del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+/* Sidebar */
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Inicialmente oculto a la izquierda */
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    transition: left 0.3s ease; /* Animación para deslizar */
+    z-index: 1000;
+}
+
+#sidebar-content {
+    padding-top: 60px;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar ul li {
+    padding: 15px;
+    text-align: center;
+}
+
+#sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+/* Estilo para el botón del sidebar */
+#toggle-sidebar {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    background-color: transparent;
+    color: rgb(20, 121, 179); /* Color base del ícono: negro */
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+/* Cambiar color del ícono cuando el cursor pasa por encima (hover) */
+#toggle-sidebar:hover {
+    color: #ff5722; /* Cambiar a un color naranja, por ejemplo, en hover */
+}
+
+/* Contenido principal */
+#main-content {
+    padding: 20px;
+    transition: margin-left 0.3s ease; /* Desplazamiento del contenido principal */
+    padding-top: 60px; /* Evitar overlap con el icono */
+}
+
+/* Cuando el sidebar está abierto */
+#sidebar.open {
+    left: 0; /* Mueve el sidebar a la vista */
+}
+
+#main-content.open {
+    margin-left: 250px; /* Mueve el contenido principal cuando el sidebar está visible */
+}
+
+
+
+
+/*
+-----CAJA ACTIVIDADES-----
+
+.activitie_box {
+    width: 480.666px;
+    height: 680px;
+    float: left;
+    border-left: 2px solid #FFFFFF;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+*/
+
+
