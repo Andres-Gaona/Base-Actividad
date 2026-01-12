@@ -1,0 +1,142 @@
+
+/*
+* core
+*/
+
+.btable{
+	--uibTableMarginBottom: var(--bTableMarginBottom, 2rem);
+}
+
+@media (max-width: 768px){
+
+	.btable, .btable__tbody, .btable__row, .btable__cell, .btable__mobile-head, .btable__mobile-column{
+		display: block;
+	}
+
+	.btable__thead{
+		display: none;
+	}
+
+	.btable__row:not(:last-of-type){
+        margin-bottom: var(--uibTableMarginBottom);
+    }
+
+	.btable__mobile-column:first-of-type{
+		font-weight: 700;
+	}
+
+	.btable_type2 .btable__cell{
+        display: flex;
+    }
+
+    .btable_type2 .btable__mobile-column{
+        width: 49%;
+    }
+
+    .btable_type2 .btable__mobile-column:first-child{
+        margin-right: 1%;
+    }
+}
+
+
+@media (min-width: 769px){
+
+	.btable__mobile-head, .btable__mobile-column:first-of-type{
+        display: none;
+    }
+}
+
+/*
+* btable_colored
+*/
+
+.btable_colored{
+	--uibTableActiveBgColor: var(--bTableHeaderBgColor);
+	--uibTableActiveTextColor: var(--bTableHeaderTextColor);
+}
+
+@media (max-width: 768px){
+
+	.btable_colored .btable__mobile-head{
+		background-color: var(--uibTableActiveBgColor);
+		color: var(--uibTableActiveTextColor);
+	}
+}
+
+@media (min-width: 769px){
+
+	.btable_colored .btable__thead{
+		background-color: var(--uibTableActiveBgColor);
+		color: var(--uibTableActiveTextColor);
+	}
+}
+
+/*
+* btable_comparative
+*/
+
+.btable_comparative{
+	--uibTableActiveBgColor: var(--bTableActiveBgColor);
+	--uibTableActiveTextColor: var(--bTableActiveTextColor);
+}
+
+@media (max-width: 769px){
+
+	.btable_comparative .btable__cell_active{
+		background-color: var(--uibTableActiveBgColor);
+		color: var(--uibTableActiveTextColor);
+	}
+}
+
+@media (min-width: 769px){
+
+	.btable_comparative .btable__th_active,
+	.btable_comparative .btable__cell_active{
+		border-color: var(--uibTableActiveBgColor, #e9ecef);
+		background-color: var(--uibTableActiveBgColor);
+		color: var(--uibTableActiveTextColor);
+	}
+}
+
+
+/*
+* Flat Design for a table
+*/
+
+@media (max-width: 768px){
+
+	.btable_flat .btable__row{
+		border-right: 1px solid #e9ecef;
+		border-left: 1px solid #e9ecef;
+		border-bottom: 1px solid #e9ecef;
+	}
+}
+
+@media (min-width: 769px){
+
+    .btable_flat{
+        border: 1px solid #e9ecef;
+    }
+}
+
+/*
+* Material Design for a table
+*/
+
+.btable_md .btable__tbody{
+	font-weight: 300;
+}
+
+@media (max-width: 768px){
+
+    .btable_md .btable__row{
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24);
+    }
+}
+
+@media (min-width: 769px){
+
+    .btable_md{
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .12), 0 1px 2px 0 rgba(0, 0, 0, .24);
+    }
+}
