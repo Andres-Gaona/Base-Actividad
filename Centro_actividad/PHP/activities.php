@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Centro Actividades</title>
-    <meta name="Panel" content="noindex, nofollow">
+    <meta name="robots" content="noindex, nofollow">
     <link rel="shortcut icon" href="" />
    
     <!-- Bootstrap -->
@@ -22,7 +22,7 @@
     <link href="../css/fonts.css" rel="stylesheet" type="text/css">
 
      
-      <script src="../js/jquery-1.11.3.min.js"></script>
+      <script src="../js/jquery.min.js"></script>
 
       
     <link rel="stylesheet" href="../js/owl/docs/assets/owlcarousel/assets/owl.carousel.min.css">
@@ -174,9 +174,9 @@
               </div>
             </div>
           </div>
-                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php?id_activity=18224">Editar</a></div>
+                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php">Editar</a></div>
             
-                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php?id_activity=18224">Eliminar</a></div>
+                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php">Eliminar</a></div>
             
                   </div>
       </div>
@@ -222,9 +222,9 @@
               </div>
             </div>
           </div>
-                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php?id_activity=21795">Editar</a></div>
+                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php">Editar</a></div>
             
-                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php?id_activity=21795">Eliminar</a></div>
+                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php">Eliminar</a></div>
             
                   </div>
       </div>
@@ -270,9 +270,9 @@
               </div>
             </div>
           </div>
-                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php?id_activity=21796">Editar</a></div>
+                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php">Editar</a></div>
             
-                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php?id_activity=21796">Eliminar</a></div>
+                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php">Eliminar</a></div>
             
                   </div>
       </div>
@@ -318,9 +318,9 @@
               </div>
             </div>
           </div>
-                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php?id_activity=22024">Editar</a></div>
+                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php">Editar</a></div>
             
-                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php?id_activity=22024">Eliminar</a></div>
+                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php">Eliminar</a></div>
             
                   </div>
       </div>
@@ -366,9 +366,9 @@
               </div>
             </div>
           </div>
-                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php?id_activity=17179">Editar</a></div>
+                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php">Editar</a></div>
             
-                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php?id_activity=17179">Eliminar</a></div>
+                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php">Eliminar</a></div>
             
                   </div>
       </div>
@@ -414,9 +414,9 @@
               </div>
             </div>
           </div>
-                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php?id_activity=20303">Editar</a></div>
+                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php">Editar</a></div>
             
-                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php?id_activity=20303">Eliminar</a></div>
+                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php">Eliminar</a></div>
             
                   </div>
       </div>
@@ -462,9 +462,9 @@
               </div>
             </div>
           </div>
-                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php?id_activity=21797">Editar</a></div>
+                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php">Editar</a></div>
             
-                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php?id_activity=21797">Eliminar</a></div>
+                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php">Eliminar</a></div>
             
                   </div>
       </div>
@@ -510,9 +510,9 @@
               </div>
             </div>
           </div>
-                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php?id_activity=22217">Editar</a></div>
+                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php">Editar</a></div>
             
-                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php?id_activity=22217">Eliminar</a></div>
+                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php">Eliminar</a></div>
             
                   </div>
       </div>
@@ -558,9 +558,9 @@
               </div>
             </div>
           </div>
-                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php?id_activity=18802">Editar</a></div>
+                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php">Editar</a></div>
             
-                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php?id_activity=18802">Eliminar</a></div>
+                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php">Eliminar</a></div>
             
                   </div>
       </div>
@@ -606,9 +606,9 @@
               </div>
             </div>
           </div>
-                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php?id_activity=21495">Editar</a></div>
+                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php">Editar</a></div>
             
-                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php?id_activity=21495">Eliminar</a></div>
+                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php">Eliminar</a></div>
             
                   </div>
       </div>
@@ -654,9 +654,9 @@
               </div>
             </div>
           </div>
-                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php?id_activity=18809">Editar</a></div>
+                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php">Editar</a></div>
             
-                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php?id_activity=18809">Eliminar</a></div>
+                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php">Eliminar</a></div>
             
                   </div>
       </div>
@@ -702,9 +702,9 @@
               </div>
             </div>
           </div>
-                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php?id_activity=21799">Editar</a></div>
+                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php">Editar</a></div>
             
-                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php?id_activity=21799">Eliminar</a></div>
+                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php">Eliminar</a></div>
             
                   </div>
       </div>
@@ -750,9 +750,9 @@
               </div>
             </div>
           </div>
-                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php?id_activity=20813">Editar</a></div>
+                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php">Editar</a></div>
             
-                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php?id_activity=20813">Eliminar</a></div>
+                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php">Eliminar</a></div>
             
                   </div>
       </div>
@@ -798,9 +798,9 @@
               </div>
             </div>
           </div>
-                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php?id_activity=10049">Editar</a></div>
+                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php">Editar</a></div>
             
-                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php?id_activity=10049">Eliminar</a></div>
+                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php">Eliminar</a></div>
             
                   </div>
       </div>
@@ -846,9 +846,9 @@
               </div>
             </div>
           </div>
-                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php?id_activity=12750">Editar</a></div>
+                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php">Editar</a></div>
             
-                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php?id_activity=12750">Eliminar</a></div>
+                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php">Eliminar</a></div>
             
                   </div>
       </div>
@@ -894,9 +894,9 @@
               </div>
             </div>
           </div>
-                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php?id_activity=22528">Editar</a></div>
+                    <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="actions/modify_activity.php">Editar</a></div>
             
-                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php?id_activity=22528">Eliminar</a></div>
+                    <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="actions/delete_activity.php">Eliminar</a></div>
             
                   </div>
       </div>
