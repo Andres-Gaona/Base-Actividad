@@ -1,6 +1,6 @@
 /*!
  * Bootstrap 
- * Copyright 2011-2026 The Bootstrap Authors
+ * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under the MIT license
  */
 
@@ -20,7 +20,7 @@ if (typeof jQuery === 'undefined') {
  * Bootstrap: transition.js 
  * http://getbootstrap.com/javascript/#transitions
  * ========================================================================
- * Copyright 2011-2026 The Bootstrap Authors
+ * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
@@ -47,10 +47,9 @@ if (typeof jQuery === 'undefined') {
       }
     }
 
-    return false // explicit for ie8 (  ._.)
+    return false // explicit for ie8 
   }
 
-  // http://blog.alexmaccaw.com/css-transitions
   $.fn.emulateTransitionEnd = function (duration) {
     var called = false
     var $el = this
@@ -80,7 +79,7 @@ if (typeof jQuery === 'undefined') {
  * Bootstrap: alert.js 
  * http://getbootstrap.com/javascript/#alerts
  * ========================================================================
- * Copyright 2011-2026 The Bootstrap Authors
+ * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
@@ -175,7 +174,7 @@ if (typeof jQuery === 'undefined') {
  * Bootstrap: button.js 
  * http://getbootstrap.com/javascript/#buttons
  * ========================================================================
- * Copyright 2011-2026 The Bootstrap Authors
+ * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
@@ -300,7 +299,7 @@ if (typeof jQuery === 'undefined') {
  * Bootstrap: carousel.js 
  * http://getbootstrap.com/javascript/#carousel
  * ========================================================================
- * Copyright 2011-2026 The Bootstrap Authors
+ * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
@@ -537,7 +536,7 @@ if (typeof jQuery === 'undefined') {
  * Bootstrap: collapse.js 
  * http://getbootstrap.com/javascript/#collapse
  * ========================================================================
- * Copyright 2011-2026 The Bootstrap Authors
+ * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
@@ -749,7 +748,7 @@ if (typeof jQuery === 'undefined') {
  * Bootstrap: dropdown.js 
  * http://getbootstrap.com/javascript/#dropdowns
  * ========================================================================
- * Copyright 2011-2026 The Bootstrap Authors
+ * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
@@ -915,7 +914,7 @@ if (typeof jQuery === 'undefined') {
  * Bootstrap: modal.js 
  * http://getbootstrap.com/javascript/#modals
  * ========================================================================
- * Copyright 2011-2026 The Bootstrap Authors
+ * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
@@ -1256,7 +1255,7 @@ if (typeof jQuery === 'undefined') {
  * http://getbootstrap.com/javascript/#tooltip
  * Inspired by the original jQuery.tipsy by Jason Frame
  * ========================================================================
- * Copyright 2011-2026 The Bootstrap Authors
+ * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
@@ -1774,7 +1773,7 @@ if (typeof jQuery === 'undefined') {
  * Bootstrap: popover.js 
  * http://getbootstrap.com/javascript/#popovers
  * ========================================================================
- * Copyright 2011-2026 The Bootstrap Authors
+ * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
@@ -1879,10 +1878,10 @@ if (typeof jQuery === 'undefined') {
 }(jQuery);
 
 /* ========================================================================
- * Bootstrap: scrollspy.js v3.3.7
+ * Bootstrap: scrollspy.js 
  * http://getbootstrap.com/javascript/#scrollspy
  * ========================================================================
- * Copyright 2011-2026 The Bootstrap Authors
+ * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
@@ -2055,7 +2054,7 @@ if (typeof jQuery === 'undefined') {
  * Bootstrap: tab.js 
  * http://getbootstrap.com/javascript/#tabs
  * ========================================================================
- * Copyright 2011-2026 The Bootstrap Authors
+ * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
@@ -2211,7 +2210,7 @@ if (typeof jQuery === 'undefined') {
  * Bootstrap: affix.js
  * http://getbootstrap.com/javascript/#affix
  * ========================================================================
- * Copyright 2011-2026 The Bootstrap Authors
+ * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 

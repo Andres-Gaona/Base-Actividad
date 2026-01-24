@@ -8,10 +8,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PESTAÑA PROMOS</title>
     <meta name="robots" content="noindex, nofollow">
-    <link rel="shortcut icon" href="../assets/icons/favicon.ico" />
-    <link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="../assets/icons/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="../assets/icons/apple-touch-icon-114x114.png" />
+    <link rel="shortcut icon" href="" />
+    
       
     <!-- Bootstrap -->
     <link href="css/reset.css" rel="stylesheet" type="text/css">
@@ -25,17 +23,9 @@
 
 	 
     <link href="../css/fonts.css" rel="stylesheet" type="text/css">
-      
-
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
      
      
-      <script src="../js/jquery-1.11.3.min.js"></script>
+      <script src="../js/jquery.min.js"></script>
 
       
     <link rel="stylesheet" href="../js/owl/docs/assets/owlcarousel/assets/owl.carousel.min.css">
@@ -54,15 +44,15 @@
     
     
 
-       <a  class="hvr-forward" href="\A+O\Base_actividad\Centro_actividad\PHP\activities.php">Actividades</a>
+       <a  class="hvr-forward" href="\Act+Inf\Base_actividad\Centro_actividad\PHP\activities.php">Actividades</a>
    
-       <a  class="hvr-forward" href="\A+O\Base_actividad\Sidebar\Shows\PHP\shows.php">Shows</a>
+       <a  class="hvr-forward" href="\Act+Inf\Base_actividad\Sidebar\Shows\PHP\shows.php">Shows</a>
   
-       <a  class="hvr-forward" href="\A+O\Base_actividad\Sidebar\Restaurantes\PHP\restaurants.php">Restaurantes</a>
+       <a  class="hvr-forward" href="\Act+Inf\Base_actividad\Sidebar\Restaurantes\PHP\restaurants.php">Restaurantes</a>
 	
-	     <a  class="hvr-forward" href="\A+O\Base_actividad\Sidebar\Bares\PHP\bars.php">Bares</a>
+	     <a  class="hvr-forward" href="\Act+Inf\Base_actividad\Sidebar\Bares\PHP\bars.php">Bares</a>
    	
-		   <a  class="hvr-forward" href="\A+O\Base_actividad\Sidebar\Promos\PHP\promos.php">Promociones</a>
+		   <a  class="hvr-forward" href="\Act+Inf\Base_actividad\Sidebar\Promos\PHP\promos.php">Promociones</a>
 	
 	
 	
@@ -73,7 +63,7 @@
    <img class="hvr-bounce-out main_button " src="img/Red_Icon.png" width="69" height="72" alt="" onclick="openNav()"/> 
   </div>        
   <div class="header">
-      <a class="update_button fancybox_delete" href="\A+O\Base_actividad\Acciones\Actualizar\PHP\actions\update_screen.php">Actualizar</a><div class="day_box">
+      <a class="update_button fancybox_delete" href="\Act+Inf\Base_actividad\Acciones\Actualizar\PHP\actions\update_screen.php">Actualizar</a><div class="day_box">
         <form action="#" method="post" id="form_select_day" name="form_select_day">
               <select name="day_selected" id="day_selected" onchange="this.form.submit()" style="line-height: 30px; height: 30px; text-transform: uppercase;" class="selectpicker"  data-style="btn-info">
                 <option value="1" >Lunes</option>
@@ -92,7 +82,7 @@
      <div class="add_restaurant_box">
     
 		 
-        <a class="add_restaurant hvr-shrink fancybox_activity" href="\A+O\Base_actividad\Acciones\Acciones_Promos\Agregar_Promo\PHP\actions\add_promo.php">Agregar Promoción</a>
+        <a class="add_restaurant hvr-shrink fancybox_activity" href="\Act+Inf\Base_actividad\Acciones\Acciones_Promos\Agregar_Promo\PHP\actions\add_promo.php">Agregar Promoción</a>
     
            
     
@@ -127,11 +117,11 @@
 			
 			 
 			<div class="tools_box">
-				<a class="modify_button fancybox_activity" href="\A+O\Base_actividad\Acciones\Acciones_Promos\Modificar_Promo\PHP\actions\modify_promo.php">
+				<a class="modify_button fancybox_activity" href="\Act+Inf\Base_actividad\Acciones\Acciones_Promos\Modificar_Promo\PHP\actions\modify_promo.php">
 				<span class="glyphicon glyphicon-record"></span>
 				</a>	
 				  
-				<a class="delete_button fancybox_delete" href="\A+O\Base_actividad\Acciones\Acciones_Promos\Borrar_Promo\PHP\actions\delete_promo.php">
+				<a class="delete_button fancybox_delete" href="\Act+Inf\Base_actividad\Acciones\Acciones_Promos\Borrar_Promo\PHP\actions\delete_promo.php">
 				 <span class="glyphicon glyphicon-remove-circle"></span>
 				</a>	
 				
@@ -199,11 +189,11 @@
 			
 			 
 			<div class="tools_box">
-				<a class="modify_button fancybox_activity" href="\A+O\Base_actividad\Acciones\Acciones_Promos\Modificar_Promo\PHP\actions\modify_promo.php">
+				<a class="modify_button fancybox_activity" href="\Act+Inf\Base_actividad\Acciones\Acciones_Promos\Modificar_Promo\PHP\actions\modify_promo.php">
 				<span class="glyphicon glyphicon-record"></span>
 				</a>	
 				  
-				<a class="delete_button fancybox_delete" href="\A+O\Base_actividad\Acciones\Acciones_Promos\Borrar_Promo\PHP\actions\delete_promo.php">
+				<a class="delete_button fancybox_delete" href="\Act+Inf\Base_actividad\Acciones\Acciones_Promos\Borrar_Promo\PHP\actions\delete_promo.php">
 				 <span class="glyphicon glyphicon-remove-circle"></span>
 				</a>	
 				
@@ -271,11 +261,11 @@
 			
 			 
 			<div class="tools_box">
-				<a class="modify_button fancybox_activity" href="\A+O\Base_actividad\Acciones\Acciones_Promos\Modificar_Promo\PHP\actions\modify_promo.php">
+				<a class="modify_button fancybox_activity" href="\Act+Inf\Base_actividad\Acciones\Acciones_Promos\Modificar_Promo\PHP\actions\modify_promo.php">
 				<span class="glyphicon glyphicon-record"></span>
 				</a>	
 				  
-				<a class="delete_button fancybox_delete" href="\A+O\Base_actividad\Acciones\Acciones_Promos\Borrar_Promo\PHP\actions\delete_promo.php">
+				<a class="delete_button fancybox_delete" href="\Act+Inf\Base_actividad\Acciones\Acciones_Promos\Borrar_Promo\PHP\actions\delete_promo.php">
 				 <span class="glyphicon glyphicon-remove-circle"></span>
 				</a>	
 				
@@ -343,11 +333,11 @@
 			
 			 
 			<div class="tools_box">
-				<a class="modify_button fancybox_activity" href="\A+O\Base_actividad\Acciones\Acciones_Promos\Modificar_Promo\PHP\actions\modify_promo.php">
+				<a class="modify_button fancybox_activity" href="\Act+Inf\Base_actividad\Acciones\Acciones_Promos\Modificar_Promo\PHP\actions\modify_promo.php">
 				<span class="glyphicon glyphicon-record"></span>
 				</a>	
 				  
-				<a class="delete_button fancybox_delete" href="\A+O\Base_actividad\Acciones\Acciones_Promos\Borrar_Promo\PHP\actions\delete_promo.php">
+				<a class="delete_button fancybox_delete" href="\Act+Inf\Base_actividad\Acciones\Acciones_Promos\Borrar_Promo\PHP\actions\delete_promo.php">
 				 <span class="glyphicon glyphicon-remove-circle"></span>
 				</a>	
 				
@@ -422,8 +412,8 @@ function closeNav() {
 }
 </script>
    
-<script type="text/javascript" src="js/FB/source/jquery.fancybox.js?v=2.1.5"></script>
-    <link rel="stylesheet" type="text/css" href="js/FB/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+<script type="text/javascript" src="js/FB/source/jquery.fancybox.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/FB/source/jquery.fancybox.css" media="screen" />
   <script type="text/javascript">
 		$(document).ready(function() {
 			/*
