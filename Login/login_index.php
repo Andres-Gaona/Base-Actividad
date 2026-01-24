@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Credenciales solicitadas: root / 12345
     if ($user === 'root' && $pass === '12345') {
         // Login correcto: redirigir a otra página
-        header("Location: \Act+Inf\Base_actividad\Centro_actividad\PHP\activities.php"); // Redirige a otra_pagina.php
+        header("Location: \Act+Inf\Base_actividad\Centro_actividad\PHP\activities.php"); // Redirige a otra pagina
         exit; 
     } else {
         $error = 'Usuario o contraseña incorrectos';
@@ -23,9 +23,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <title>LOGIN</title>
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
     <meta name="robots" content="noindex, nofollow">
-    <link rel="shortcut icon" href="../assets/icons/favicon.ico" />
+    <link rel="shortcut icon" href="" />
     <link href="\Act+Inf\Base_actividad\Login\css\styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
