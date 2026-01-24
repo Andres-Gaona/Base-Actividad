@@ -20,7 +20,7 @@
 
     <link href="../css/fonts.css" rel="stylesheet" type="text/css">
      
-      <script src="../js/jquery-1.11.3.min.js"></script>
+      <script src="../js/jquery.min.js"></script>
 
       
     <link rel="stylesheet" href="../js/owl/docs/assets/owlcarousel/assets/owl.carousel.min.css">
@@ -44,15 +44,15 @@
     
     
 
-       <a  class="hvr-forward" href="\A+O\Base_actividad\Centro_actividad\PHP\activities.php">Actividades</a>
+       <a  class="hvr-forward" href="\Act+Inf\Base_actividad\Centro_actividad\PHP\activities.php">Actividades</a>
    
-       <a  class="hvr-forward" href="\A+O\Base_actividad\Sidebar\Shows\PHP\shows.php">Shows</a>
+       <a  class="hvr-forward" href="\Act+Inf\Base_actividad\Sidebar\Shows\PHP\shows.php">Shows</a>
   
-       <a  class="hvr-forward" href="\A+O\Base_actividad\Sidebar\Restaurantes\PHP\restaurants.php">Restaurantes</a>
+       <a  class="hvr-forward" href="\Act+Inf\Base_actividad\Sidebar\Restaurantes\PHP\restaurants.php">Restaurantes</a>
 	
-	     <a  class="hvr-forward" href="\A+O\Base_actividad\Sidebar\Bares\PHP\bars.php">Bares</a>
+	     <a  class="hvr-forward" href="\Act+Inf\Base_actividad\Sidebar\Bares\PHP\bars.php">Bares</a>
    	
-	  	 <a  class="hvr-forward" href="\A+O\Base_actividad\Sidebar\Promos\PHP\promos.php">Promociones</a>
+	  	 <a  class="hvr-forward" href="\Act+Inf\Base_actividad\Sidebar\Promos\PHP\promos.php">Promociones</a>
     
     
 </div>
@@ -61,7 +61,7 @@
    <img class="hvr-bounce-out main_button " src="img/Red_Icon.png" width="69" height="72" alt="" onclick="openNav()"/> 
   </div>      
   <div class="header">
-      <a class="update_button fancybox_delete" href="\A+O\Base_actividad\Acciones\Actualizar\PHP\actions\update_screen.php">Actualizar</a><div class="day_box">
+      <a class="update_button fancybox_delete" href="\Act+Inf\Base_actividad\Acciones\Actualizar\PHP\actions\update_screen.php">Actualizar</a><div class="day_box">
         <form action="# " method="post" id="form_select_day" name="form_select_day">
               <select name="day_selected" id="day_selected" onchange="this.form.submit()" style="line-height: 30px; height: 30px; text-transform: uppercase;" class="selectpicker"  data-style="btn-info">
                 <option value="1" >Lunes</option>
@@ -73,7 +73,7 @@
                 <option value="0" >Domingo</option>
               </select>
             </form>
-      </div><a id="exit_button" name="exit_button" class="logout_button" href="\A+O\Base_actividad\Login\login_index.php">Salir</a> </div>
+      </div><a id="exit_button" name="exit_button" class="logout_button" href="\Act+Inf\Base_actividad\Login\login_index.php">Salir</a> </div>
 	  
 	  
 <div id="main" onclick="closeNav()">
@@ -82,7 +82,7 @@
     
 		 
 		   
-		 <a class="add_restaurant hvr-shrink fancybox_activity" href="\A+O\Base_actividad\Acciones\Acciones_Bares\Agregar_Bar\PHP\actions\add_bar.php">Agregar Bar</a>
+		 <a class="add_restaurant hvr-shrink fancybox_activity" href="\Act+Inf\Base_actividad\Acciones\Acciones_Bares\Agregar_Bar\PHP\actions\add_bar.php">Agregar Bar</a>
        
     </div>
        <table class="table btable btable_colored btable_purple">
@@ -116,10 +116,10 @@
           
           <td class="btable__cell center_button"><span class="btable__mobile-column tittle_rest">Herramientas</span> <span class="btable__mobile-column"> 
             
-            <a class="edit_rest_button fancybox_activity hvr-grow" href="\A+O\Base_actividad\Acciones\Acciones_Bares\Modificar_Bar\PHP\actions\modify_bar.php">
+            <a class="edit_rest_button fancybox_activity hvr-grow" href="\Act+Inf\Base_actividad\Acciones\Acciones_Bares\Modificar_Bar\PHP\actions\modify_bar.php">
               <span class="glyphicon glyphicon-record"></span></a>  
             
-            <a class="edit_rest_button red_icon fancybox_delete hvr-grow" href="\A+O\Base_actividad\Acciones\Acciones_Bares\Eliminar_Bar\PHP\actions\delete_bar.php">
+            <a class="edit_rest_button red_icon fancybox_delete hvr-grow" href="\Act+Inf\Base_actividad\Acciones\Acciones_Bares\Eliminar_Bar\PHP\actions\delete_bar.php">
               <span class="glyphicon glyphicon-remove-circle"></span> </a>  
           </span></td>
           
@@ -208,8 +208,8 @@ function closeNav() {
 }
 </script>
    
-<script type="text/javascript" src="js/FB/source/jquery.fancybox.js?v=2.1.5"></script>
-    <link rel="stylesheet" type="text/css" href="js/FB/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+<script type="text/javascript" src="js/FB/source/jquery.fancybox.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/FB/source/jquery.fancybox.css" media="screen" />
   <script type="text/javascript">
 		$(document). ready(function() {
 			/*
@@ -300,6 +300,6 @@ function closeNav() {
         
 	</script>
 
-<script src=".. /js/bootstrap.js"></script>  
+<script src="\Act+Inf\Base_actividad\Sidebar\Bares\js\bootstrap.js"></script>  
 </body>
 </html>

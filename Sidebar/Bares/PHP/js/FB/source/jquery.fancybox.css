@@ -1,4 +1,13 @@
-/*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
+/*!
+ * fancyBox - jQuery Plugin
+ * @requires jQuery v1.6 or later
+ *
+ * Examples at http://fancyapps.com/fancybox/
+ * License: www.fancyapps.com/fancybox/#license
+ *
+ * Copyright 2019 Janis Skarnelis - janis@fancyapps.com
+ *
+ */
 .fancybox-wrap,
 .fancybox-skin,
 .fancybox-outer,
