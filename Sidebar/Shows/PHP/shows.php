@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>PESTAÑA SHOWS</title>
-    <meta name="Panel" content="noindex, nofollow">
+    <meta name="robots" content="noindex, nofollow">
     <link rel="shortcut icon" href="" />
         
-    <!-- Bootstrap -->
+    <!-- CSS -->
     <link href="css/reset.css" rel="stylesheet" type="text/css">
     <link href="../css/basics.css" rel="stylesheet" type="text/css">
-	<link href="../css/bootstrap.css" rel="stylesheet">
-	<link href="css/layout.css" rel="stylesheet" type="text/css">
-	<link href="css/hover.css" rel="stylesheet" type="text/css">
-
+	  <link href="../css/bootstrap.css" rel="stylesheet">
+	  <link href="css/layout.css" rel="stylesheet" type="text/css">
+	  <link href="css/hover.css" rel="stylesheet" type="text/css">
     <link href="../css/animate.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
     <link href="../css/fonts.css" rel="stylesheet" type="text/css">
      
-      <script src="../js/jquery-1.11.3.min.js"></script>
+      <script src="../js/jquery.min.js"></script>
  
       
     <link rel="stylesheet" href="../js/owl/docs/assets/owlcarousel/assets/owl.carousel.min.css">
@@ -55,7 +55,7 @@
   </div>        
   <div class="header">
       
-    <a class="update_button fancybox_delete" href="\A+O\Base_actividad\Acciones\Actualizar\PHP\actions\update_screen.php">Actualizar</a><div class="day_box">
+    <a class="update_button fancybox_delete" href="\Act+Inf\Base_actividad\Acciones\Actualizar\PHP\actions\update_screen.php">Actualizar</a><div class="day_box">
         <form action="#" method="post" id="form_select_day" name="form_select_day">
               <select name="day_selected" id="day_selected" onchange="this.form.submit()" style="line-height: 30px; height: 30px; text-transform: uppercase;" class="selectpicker"  data-style="btn-info">
                 <option value="1" >Lunes</option>
@@ -67,7 +67,7 @@
                 <option value="0" >Domingo</option>
               </select>
             </form>
-      </div><a id="exit_button" name="exit_button" class="logout_button" href="\A+O\Base_actividad\Login\login_index.php">Salir</a> </div>
+      </div><a id="exit_button" name="exit_button" class="logout_button" href="\Act+Inf\Base_actividad\Login\login_index.php">Salir</a> </div>
 <div id="main" onclick="closeNav()">
   
   
@@ -79,7 +79,7 @@
       
       <div class="activitie_content no_shadow">
           
-          <a class="hvr-shrink add_activity fancybox_activity" href="\A+O\Base_actividad\Acciones\Acciones_Shows\Agregar_Show\PHP\actions\add_show.php">Agregar Show</a>
+          <a class="hvr-shrink add_activity fancybox_activity" href="\Act+Inf\Base_actividad\Acciones\Acciones_Shows\Agregar_Show\PHP\actions\add_show.php">Agregar Show</a>
           
         
           
@@ -138,8 +138,8 @@
           </div>
             
             
-          <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="\A+O\Base_actividad\Acciones\Acciones_Shows\Modificar_Show\PHP\actions\modify_show.php">Editar</a></div>
-          <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="\A+O\Base_actividad\Acciones\Acciones_Shows\Eliminar_Show\PHP\actions\delete_show.php">Eliminar</a></div>
+          <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="\Act+Inf\Base_actividad\Acciones\Acciones_Shows\Modificar_Show\PHP\actions\modify_show.php">Editar</a></div>
+          <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="\Act+Inf\Base_actividad\Acciones\Acciones_Shows\Eliminar_Show\PHP\actions\delete_show.php">Eliminar</a></div>
             
             
         </div>
@@ -191,8 +191,8 @@
           </div>
             
             
-          <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="\A+O\Base_actividad\Acciones\Acciones_Shows\Modificar_Show\PHP\actions\modify_show.php">Editar</a></div>
-          <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="\A+O\Base_actividad\Acciones\Acciones_Shows\Eliminar_Show\PHP\actions\delete_show.php">Eliminar</a></div>
+          <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="\Act+Inf\Base_actividad\Acciones\Acciones_Shows\Modificar_Show\PHP\actions\modify_show.php">Editar</a></div>
+          <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="\Act+Inf\Base_actividad\Acciones\Acciones_Shows\Eliminar_Show\PHP\actions\delete_show.php">Eliminar</a></div>
             
             
         </div>
@@ -244,8 +244,8 @@
           </div>
             
             
-          <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="/A+O/Base_actividad/Acciones/Acciones_Shows/Modificar_Show/PHP/actions/modify_show.php">Editar</a></div>
-          <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="\A+O\Base_actividad\Acciones\Acciones_Shows\Eliminar_Show\PHP\actions\delete_show.php">Eliminar</a></div>
+          <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="/Act+Inf/Base_actividad/Acciones/Acciones_Shows/Modificar_Show/PHP/actions/modify_show.php">Editar</a></div>
+          <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="\Act+Inf\Base_actividad\Acciones\Acciones_Shows\Eliminar_Show\PHP\actions\delete_show.php">Eliminar</a></div>
             
             
         </div>
@@ -297,8 +297,8 @@
           </div>
             
             
-          <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="\A+O\Base_actividad\Acciones\Acciones_Shows\Modificar_Show\PHP\actions\modify_show.php">Editar</a></div>
-          <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="\A+O\Base_actividad\Acciones\Acciones_Shows\Eliminar_Show\PHP\actions\delete_show.php">Eliminar</a></div>
+          <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="\Act+Inf\Base_actividad\Acciones\Acciones_Shows\Modificar_Show\PHP\actions\modify_show.php">Editar</a></div>
+          <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="\Act+Inf\Base_actividad\Acciones\Acciones_Shows\Eliminar_Show\PHP\actions\delete_show.php">Eliminar</a></div>
             
             
         </div>
@@ -350,8 +350,8 @@
           </div>
             
             
-          <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="\A+O\Base_actividad\Acciones\Acciones_Shows\Modificar_Show\PHP\actions\modify_show.php">Editar</a></div>
-          <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="\A+O\Base_actividad\Acciones\Acciones_Shows\Eliminar_Show\PHP\actions\delete_show.php">Eliminar</a></div>
+          <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="\Act+Inf\Base_actividad\Acciones\Acciones_Shows\Modificar_Show\PHP\actions\modify_show.php">Editar</a></div>
+          <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="\Act+Inf\Base_actividad\Acciones\Acciones_Shows\Eliminar_Show\PHP\actions\delete_show.php">Eliminar</a></div>
             
             
         </div>
@@ -403,8 +403,8 @@
           </div>
             
             
-          <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="\A+O\Base_actividad\Acciones\Acciones_Shows\Modificar_Show\PHP\actions\modify_show.php">Editar</a></div>
-          <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="\A+O\Base_actividad\Acciones\Acciones_Shows\Eliminar_Show\PHP\actions\delete_show.php">Eliminar</a></div>
+          <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="\Act+Inf\Base_actividad\Acciones\Acciones_Shows\Modificar_Show\PHP\actions\modify_show.php">Editar</a></div>
+          <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="\Act+Inf\Base_actividad\Acciones\Acciones_Shows\Eliminar_Show\PHP\actions\delete_show.php">Eliminar</a></div>
             
             
         </div>
@@ -456,8 +456,8 @@
           </div>
             
             
-          <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="\A+O\Base_actividad\Acciones\Acciones_Shows\Modificar_Show\PHP\actions\modify_show.php">Editar</a></div>
-          <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="\A+O\Base_actividad\Acciones\Acciones_Shows\Eliminar_Show\PHP\actions\delete_show.php">Eliminar</a></div>
+          <div class="button_edit_box"><a class="button_form_blue hvr-shrink fancybox_activity" href="\Act+Inf\Base_actividad\Acciones\Acciones_Shows\Modificar_Show\PHP\actions\modify_show.php">Editar</a></div>
+          <div class="button_edit_box"><a class="button_form_red hvr-shrink fancybox_delete" href="\Act+Inf\Base_actividad\Acciones\Acciones_Shows\Eliminar_Show\PHP\actions\delete_show.php">Eliminar</a></div>
             
             
         </div>

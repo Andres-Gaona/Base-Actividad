@@ -1,4 +1,13 @@
-/*! fancyBox - jQuery Plugin */
+/*!
+ * fancyBox - jQuery Plugin
+ * @requires jQuery v1.6 or later
+ *
+ * Examples at http://fancyapps.com/fancybox/
+ * License: www.fancyapps.com/fancybox/#license
+ *
+ * Copyright 2019 Janis Skarnelis - janis@fancyapps.com
+ *
+ */
 
 (function (window, document, $, undefined) {
 	"use strict";
@@ -39,7 +48,7 @@
 		};
 
 	$.extend(F, {
-		// The current version of fancyBox
+
 		version: '2.1.5',
 
 		defaults: {
@@ -634,7 +643,7 @@
 				rez.h = locked[0].clientHeight;
 
 			} else {
-				// See http://bugs.jquery.com/ticket/6724
+
 				rez.w = isTouch && window.innerWidth  ? window.innerWidth  : W.width();
 				rez.h = isTouch && window.innerHeight ? window.innerHeight : W.height();
 			}
@@ -1639,7 +1648,7 @@
 				}
 			}
 
-			// Workaround for http://bugs.jquery.com/ticket/12273
+
 			if (effect === 'none') {
 				F._afterZoomIn();
 
@@ -1966,7 +1975,7 @@
 		var w1, w2;
 
 		if ( $.scrollbarWidth === undefined ) {
-			// http://benalman.com/projects/jquery-misc-plugins/#scrollbarwidth
+
 			$.scrollbarWidth = function() {
 				var parent = $('<div style="width:50px;height:50px;overflow:auto"><div/></div>').appendTo('body'),
 					child  = parent.children(),

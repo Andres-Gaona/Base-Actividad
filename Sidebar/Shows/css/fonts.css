@@ -4,7 +4,7 @@
   font-family: "galileo";
   src:url("../../fonts/galileo.eot");
   src:url("../../fonts/galileo.eot?#iefix") format("embedded-opentype"),
-url("../../fonts/galileo.woff") format("woff"),
+url("/Act+Inf/Base_actividad/Sidebar/Shows/fonts/galileo.woff") format("woff"),
 url("../../fonts/galileo.ttf") format("truetype"),
 url("../../fonts/galileo.svg#galileo") format("svg");
   font-weight: normal;
