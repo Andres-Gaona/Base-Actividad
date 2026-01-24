@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AGREGAR BAR</title>
     <meta name="robots" content="noindex, nofollow">
-    <link rel="shortcut icon" href="../../assets/icons/favicon.ico" />
+    <link rel="shortcut icon" href="" />
     
     <!-- Bootstrap -->	
       <link href="../../css/reset.css" rel="stylesheet" type="text/css">
@@ -17,9 +17,11 @@
       <link rel="stylesheet" media="all" type="text/css" href="../css/jquery-ui.css" />
 		<link rel="stylesheet" media="all" type="text/css" href="../js/timepicker/dist/jquery-ui-timepicker-addon.css" />
 		<style type="text/css">
+
 #tabs, #ui-datepicker-div, .ui-datepicker {
 	font-size: 85%;
 }
+
 </style>
 
 
@@ -101,7 +103,7 @@
       </div>
     </div>
   <!-- jQuery --> 
-	<script src="../../js/jquery-1.11.3.min.js"></script>
+	<script src="../../js/jquery.min.js"></script>
 <script type="text/javascript" src="../js/timepicker/dist/jquery-ui.min.js"></script> 
 <script type="text/javascript" src="../js/timepicker/dist/jquery-ui-timepicker-addon.js"></script> 
 <script type="text/javascript" src="../js/timepicker/dist/i18n/jquery-ui-timepicker-addon-i18n.min.js"></script> 

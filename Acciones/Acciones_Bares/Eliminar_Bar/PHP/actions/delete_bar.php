@@ -7,26 +7,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ELIMINAR BAR</title>
     <meta name="robots" content="noindex, nofollow">
-    <link rel="shortcut icon" href="../../assets/icons/favicon.ico" />
-    <link rel="apple-touch-icon" href="../../assets/icons/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="../../assets/icons/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="../../assets/icons/apple-touch-icon-114x114.png" />
+    <link rel="shortcut icon" href="" />
+
+    
     <!-- Bootstrap -->	
-      <link href="../../css/reset.css" rel="stylesheet" type="text/css">
+    <link href="../../css/reset.css" rel="stylesheet" type="text/css">
 	  <link href="../../css/bootstrap.css" rel="stylesheet">
 	  <link href="../css/floats.css" rel="stylesheet" type="text/css">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-	
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
+
   </head>
 <body class="total_body">
-  	<!-- body code goes here -->
+
+  	<!-- Cuerpo -->
     <div class="total_box delete_box">
       <div class="tittle_box">Eliminar Bar</div>
       <form method="post" id="delete_bar" name="delete_bar">
@@ -36,11 +30,12 @@
         <div><a class="button_form green_button" href="javascript:parent.$.fancybox.close();">Cancelar</a><input name="delete_bar" type="submit" class="button_form red_button" id="delete_bar" value="Eliminar"></div>
         </form>  
     </div>
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="../../js/jquery-1.11.3.min.js"></script>
 
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	 
+  <!-- jQuery (Necesario para los plugins de Bootstrap) --> 
+<script src="../../js/jquery.min.js"></script>
+
+
+  <!-- Plugins -->
 <script src="../../js/bootstrap.js"></script>
 </body>
 </html>
