@@ -1,12 +1,11 @@
 /*!
  * fancyBox - jQuery Plugin
- * version: 2.1.5 (Fri, 14 Jun 2013)
  * @requires jQuery v1.6 or later
  *
  * Examples at http://fancyapps.com/fancybox/
  * License: www.fancyapps.com/fancybox/#license
  *
- * Copyright 2012 Janis Skarnelis - janis@fancyapps.com
+ * Copyright 2019 Janis Skarnelis - janis@fancyapps.com
  *
  */
 
@@ -644,7 +643,7 @@
 				rez.h = locked[0].clientHeight;
 
 			} else {
-				// See http://bugs.jquery.com/ticket/6724
+
 				rez.w = isTouch && window.innerWidth  ? window.innerWidth  : W.width();
 				rez.h = isTouch && window.innerHeight ? window.innerHeight : W.height();
 			}
@@ -652,7 +651,7 @@
 			return rez;
 		},
 
-		// Unbind the keyboard / clicking actions
+
 		unbindEvents: function () {
 			if (F.wrap && isQuery(F.wrap)) {
 				F.wrap.unbind('.fb');
@@ -670,8 +669,7 @@
 				return;
 			}
 
-			// Changing document height on iOS devices triggers a 'resize' event,
-			// that can change document height... repeating infinitely
+		
 			W.bind('orientationchange.fb' + (isTouch ? '' : ' resize.fb') + (current.autoCenter && !current.locked ? ' scroll.fb' : ''), F.update);
 
 			keys = current.keys;
@@ -1649,7 +1647,6 @@
 				}
 			}
 
-			// Workaround for http://bugs.jquery.com/ticket/12273
 			if (effect === 'none') {
 				F._afterZoomIn();
 
@@ -1976,7 +1973,7 @@
 		var w1, w2;
 
 		if ( $.scrollbarWidth === undefined ) {
-			// http://benalman.com/projects/jquery-misc-plugins/#scrollbarwidth
+
 			$.scrollbarWidth = function() {
 				var parent = $('<div style="width:50px;height:50px;overflow:auto"><div/></div>').appendTo('body'),
 					child  = parent.children(),
