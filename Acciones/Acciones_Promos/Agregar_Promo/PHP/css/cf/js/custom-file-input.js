@@ -1,5 +1,6 @@
 /*
-	By Osvaldas Valutis
+Custom File Imput	
+By Osvaldas Valutis
 */
 
 'use strict';
@@ -26,7 +27,7 @@
 				label.innerHTML = labelVal;
 		});
 
-		// Firefox bug fix
+		
 		input.addEventListener( 'focus', function(){ input.classList.add( 'has-focus' ); });
 		input.addEventListener( 'blur', function(){ input.classList.remove( 'has-focus' ); });
 	});

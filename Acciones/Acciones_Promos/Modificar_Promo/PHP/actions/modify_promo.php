@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MODIFICAR PROMO</title>
     <meta name="robots" content="noindex, nofollow">
-    <link rel="shortcut icon" href="../../assets/icons/favicon.ico" />
+    <link rel="shortcut icon" href="" />
 
     <!-- Bootstrap -->	
       <link href="../../css/reset.css" rel="stylesheet" type="text/css">
@@ -138,7 +138,7 @@
     </div>
     
   <!-- jQuery --> 
-  <script src="../../js/jquery-1.11.3.min.js"></script>
+  <script src="../../js/jquery.min.js"></script>
 <script type="text/javascript" src="../js/timepicker/dist/jquery-ui.min.js"></script> 
 
   <script>
